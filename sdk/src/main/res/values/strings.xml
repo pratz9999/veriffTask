@@ -1,0 +1,21 @@
+<resources>
+    <string name="dialog_allow_camera_access_title">No camera access</string>
+    <string name="dialog_allow_camera_access_message">Allow Camera access to continue</string>
+    <string name="dialog_allow_camera_access_positive">Settings</string>
+    <string name="dialog_allow_camera_access_negative">Exit</string>
+
+    <string name="dialog_error_no_camera_title">No camera detected</string>
+    <string name="dialog_error_no_camera_message">No camera detected on your device</string>
+    <string name="dialog_error_no_camera_positive">Exit</string>
+    <string name="read_text_no_text_error">No text detected. Try again.</string>
+    <string name="face_detect_no_face_error">No face detected. Try again.</string>
+    <string name="face_detect_multiple_faces_error">Only one face is allowed. Try again.</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="document_reader_title">Capture your document</string>
+    <string name="document_reader_footer">Make sure you document is clear and readable.</string>
+    <string name="face_detector_title">Smile</string>
+    <string name="face_detector_footer_msg">Please make sure that your face is in the frame and clearly visible and that only one face is visible.</string>
+    <string name="capture">Capture</string>
+    <string name="success">Success</string>
+</resources>

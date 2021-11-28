@@ -1,4 +1,4 @@
-package com.example.testapp
+package com.veriff.testapp
 
 import org.junit.Test
 

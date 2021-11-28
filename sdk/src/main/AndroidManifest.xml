@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.veriff.sdk">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.front" />
+
+    <application>
+
+        <activity
+            android:name="com.veriff.sdk.view.SDKActivity"
+            android:exported="true"
+            android:launchMode="singleInstancePerTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SdkTheme">
+            <nav-graph android:value="@navigation/nav_graph" />
+        </activity>
+    </application>
+
+</manifest>

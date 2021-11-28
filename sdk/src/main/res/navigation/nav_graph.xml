@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/documentFragment">
+
+    <fragment
+        android:id="@+id/documentFragment"
+        android:name="com.veriff.sdk.view.DocumentFragment"
+        android:label="document_fragment"
+        tools:layout="@layout/document_fragment" />
+    <fragment
+        android:id="@+id/faceFragment"
+        android:name="com.veriff.sdk.view.FaceFragment"
+        android:label="FaceFragment"
+        tools:layout="@layout/face_fragment" />
+</navigation>
