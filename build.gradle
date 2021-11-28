@@ -1,8 +1,8 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     ext {
-        kotlin_version = "1.5.31"
-        hilt_version = "2.40"
+        kotlin_version = "1.6.0"
+        hilt_version = "2.40.2"
         camerax_version = "1.0.2"
     }
     repositories {
@@ -15,6 +15,8 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.40.2'
+
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5"
         classpath 'com.vanniktech:gradle-maven-publish-plugin:0.18.0'
 
