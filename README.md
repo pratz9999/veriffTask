@@ -6,10 +6,13 @@ You can recognize text from a document like ID Card using back camera of the dev
 
 Installation
 ./gradlew clean publishToMavenLocal
+
 Gradle Kotlin
 implementation("com.veriff.sdk:sdk:1.0.0-SNAPSHOT")
+
 Gradle Groovy
 implementation 'com.veriff.sdk:sdk:1.0.0-SNAPSHOT'
+
 Maven
 <dependency>
     <groupId>com.veriff.sdk</groupId>
@@ -20,9 +23,9 @@ Maven
 Usage examples
 Activity Result API (see https://developer.android.com/training/basics/intents/result)
 
-Detect Face/Document
-class MainActivity : AppCompatActivity() {
+## Detect Face/Document
 
+    class MainActivity : AppCompatActivity() {
     private fun launchSDKActivity(action: String) {
 
         resultLauncher.launch(Intent(this, SDKActivity::class.java).apply {
@@ -42,5 +45,5 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
+            }
         }
-}
