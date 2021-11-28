@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 // There are no request codes
                 val data: Intent? = result.data
                 when {
-                    data?.extras?.containsKey("result_uri") == true -> {
-                        data.extras?.getString("result")?.let { updateData(it) }
-                        data.extras?.getString("result_uri")?.let { updateImage(it) }
+                    data?.extras?.containsKey(BundleConstants.RESULT_URI) == true -> {
+                        data.extras?.getString(BundleConstants.RESULT)?.let { updateData(it) }
+                        data.extras?.getString(BundleConstants.RESULT_URI)?.let { updateImage(it) }
                     }
                 }
             }
