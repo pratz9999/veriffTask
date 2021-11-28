@@ -20,9 +20,6 @@ Maven
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
 
-Usage examples
-Activity Result API (see https://developer.android.com/training/basics/intents/result)
-
 ## Detect Face/Document
 
     class MainActivity : AppCompatActivity() {
